@@ -15,25 +15,25 @@
 
         <Button
             android:id="@+id/foodlist"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="40dp"
-            android:layout_weight="1"
-            android:background="#00ff0000"
             android:drawableTop="@drawable/list"
+            android:background="#00ff0000"
             android:text="음식 목록"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="40dp"/>
 
         <Button
             android:id="@+id/camera"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="40dp"
-            android:layout_weight="1"
-            android:background="#00ff0000"
             android:drawableTop="@drawable/camera"
+            android:background="#00ff0000"
             android:text="냉장고 내면"
-            android:textSize="18dp" />
+            android:textSize="18dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="40dp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -44,25 +44,24 @@
 
         <Button
             android:id="@+id/temperature"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="40dp"
-            android:layout_weight="1"
-            android:background="#00ff0000"
             android:drawableTop="@drawable/thermometer"
+            android:background="#00ff0000"
             android:text="온도 조절"
-            android:textSize="20dp" />
-
+            android:textSize="20dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="40dp"/>
         <Button
             android:id="@+id/changemode"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="40dp"
-            android:layout_weight="1"
-            android:background="#00ff0000"
             android:drawableTop="@drawable/mode"
+            android:background="#00ff0000"
             android:text="모드 변경"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="40dp"/>
     </LinearLayout>
 
     <TextView
