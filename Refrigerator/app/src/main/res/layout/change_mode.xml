@@ -1,9 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
     tools:context="com.example.mina.refrigerator.ChangeMode">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="모드를 설정해 주세요."
+        android:textSize="25dp"/>
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <TableRow
+            android:layout_margin="30dp">
+            <Button
+                android:id="@+id/cos_mode"
+                android:layout_marginRight="15dp"
+                android:drawableTop="@drawable/cosmetics"
+                android:background="@drawable/layout"
+                android:text="화장품"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/freeze_mode"
+                android:layout_marginLeft="15dp"
+                android:drawableTop="@drawable/ice"
+                android:background="@drawable/layout"
+                android:text="냉동"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+        <TableRow
+            android:layout_margin="30dp">
+
+            <Button
+                android:id="@+id/diet_mode"
+                android:layout_marginRight="15dp"
+                android:drawableTop="@drawable/diet"
+                android:background="@drawable/layout"
+                android:text="다이어트"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/drink_mode"
+                android:layout_marginLeft="15dp"
+                android:drawableTop="@drawable/drink"
+                android:background="@drawable/layout"
+                android:text="음료"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

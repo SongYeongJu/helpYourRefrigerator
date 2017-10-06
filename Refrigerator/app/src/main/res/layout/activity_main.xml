@@ -18,10 +18,10 @@
             android:background="#00ff0000"
             android:text="음식 목록"
             android:textSize="20dp"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="40dp"
-            android:onClick="OnClickButton"/>
+            android:layout_weight="1"
+            android:layout_margin="40dp"/>
 
         <Button
             android:id="@+id/camera"
@@ -29,10 +29,10 @@
             android:background="#00ff0000"
             android:text="냉장고 내면"
             android:textSize="18dp"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="40dp"
-            android:onClick="OnClickButton"/>
+            android:layout_weight="1"
+            android:layout_margin="40dp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -47,20 +47,20 @@
             android:background="#00ff0000"
             android:text="온도 조절"
             android:textSize="20dp"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="40dp"
-            android:onClick="OnClickButton"/>
+            android:layout_weight="1"
+            android:layout_margin="40dp"/>
         <Button
             android:id="@+id/changemode"
             android:drawableTop="@drawable/mode"
             android:background="#00ff0000"
             android:text="모드 변경"
             android:textSize="20dp"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="40dp"
-            android:onClick="OnClickButton"/>
+            android:layout_weight="1"
+            android:layout_margin="40dp"/>
     </LinearLayout>
 
     <TextView
