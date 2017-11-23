@@ -1,8 +1,10 @@
-package com.example.mina.refrigerator;
+package com.example.mina.refrigerator.Activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.mina.refrigerator.R;
 
 public class FridgePicture extends AppCompatActivity {
 

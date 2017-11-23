@@ -4,7 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.mina.refrigerator.FoodList">
+    android:orientation="vertical"
+    tools:context="com.example.mina.refrigerator.Activity.FoodList">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="현재 냉장고 음식 리스트" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="추가할 음식을 입력해 주세요" />
+
+    <Button
+        android:id="@+id/contentAddButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="추가하기" />
 
     <ListView
         android:id="@+id/list_item"

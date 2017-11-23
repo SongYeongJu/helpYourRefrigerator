@@ -9,18 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FoodList" />
-        <activity android:name=".FridgePicture" />
-        <activity android:name=".Temperature" />
-        <activity android:name=".Client" />
-        <activity android:name=".ChangeMode"></activity>
+        <activity android:name=".Activity.FoodList" />
+        <activity android:name=".Activity.FridgePicture" />
+        <activity android:name=".Activity.Temperature" />
+        <activity android:name=".Client.Client" />
+        <activity android:name=".Activity.ChangeMode"></activity>
     </application>
 
 </manifest>

@@ -1,16 +1,22 @@
-package com.example.mina.refrigerator;
+package com.example.mina.refrigerator.Activity;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.example.mina.refrigerator.Client.Client;
+import com.example.mina.refrigerator.R;
+
 public class MainActivity extends AppCompatActivity {
+
+    private Client client;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        client=new Client();
     }
 
     public void OnClickButton(View v){

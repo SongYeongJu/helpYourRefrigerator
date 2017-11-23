@@ -6,13 +6,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context="com.example.mina.refrigerator.ChangeMode">
+    tools:context="com.example.mina.refrigerator.Activity.ChangeMode">
 
     <TextView
+        android:id="@+id/modeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="모드를 설정해 주세요."
-        android:textSize="25dp"/>
+        android:textSize="25dp" />
     <TableLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
